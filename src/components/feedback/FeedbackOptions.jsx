@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function FeedbackOptions({ onLeaveFeedback, options }) {
   const hendlerClick = () => {
-    onLeaveFeedback(options);
+    onLeaveFeedback(options)
   };
   return (
     <div className={css['container']}>
